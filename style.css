@@ -1,0 +1,60 @@
+/* Style for container */
+.container {
+  margin: 20px auto;
+  max-width: 600px;
+  border: 1px solid #e6ecf0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+/* Style for inputs */
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style for labels */
+label {
+  font-weight: bold;
+}
+
+/* Style for text inputs */
+input[type="number"] {
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/* Style for select inputs */
+select {
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  cursor: pointer;
+}
+
+/* Style for button */
+button {
+  background-color: #1da1f2;
+  color: #fff;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+/* Style for result message */
+#result {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
